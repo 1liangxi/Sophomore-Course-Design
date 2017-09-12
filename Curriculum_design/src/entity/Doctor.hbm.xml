@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-6-3 20:38:38 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="entity.Doctor" table="DOCTOR">
+        <id name="did" type="java.lang.String" length="8">
+        	<generator class="assigned"></generator>
+        </id>
+        <property name="didcard" type="java.lang.String" length="18"></property>
+        <property name="dname" type="java.lang.String" length="8"></property>
+        <property name="dsex" type="java.lang.String" length="2"></property>
+        <property name="droom" type="java.lang.String" length="11"></property>
+        <property name="djod" type="java.lang.String" length="10"></property>
+        <property name="phone" type="java.lang.String" length="11"></property>
+    </class>
+</hibernate-mapping>

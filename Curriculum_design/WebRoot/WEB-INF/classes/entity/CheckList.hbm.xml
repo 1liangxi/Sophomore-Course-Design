@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-6-3 20:38:38 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="entity.CheckList" table="CHECKLIST">
+        <id name="lno" type="java.lang.String" length="8">
+        	<generator class="assigned"></generator>
+        </id>
+        <property name="cno" type="java.lang.String" length="18"></property>
+        <property name="pid" type="java.lang.String" length="8"></property>
+        <property name="cmoney" type="java.lang.String" length="10"></property>
+        
+    </class>
+</hibernate-mapping>

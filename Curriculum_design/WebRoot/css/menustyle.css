@@ -1,0 +1,38 @@
+a:link,a:visited
+{
+    text-decoration: none;
+    color: dimgray;
+}
+
+a:hover
+{
+    color:darkorange;
+}
+
+details
+{
+    border: 1px solid #fafafa;
+}
+
+summary
+{
+    background-color:#e3e8f4;
+    font-size: 15;
+    padding: 10;
+   
+}
+
+ul
+{
+    list-style: none;
+     margin:auto;
+    background-color:#f5f8fa;
+}
+
+li
+{
+    border-bottom: 2px solid #fafafa;
+    padding: 10;
+    font-size: 14;
+    
+}

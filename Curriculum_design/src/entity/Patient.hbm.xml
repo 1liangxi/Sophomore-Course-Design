@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-6-3 20:38:38 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="entity.Patient" table="PATIENT">
+        <id name="pid" type="java.lang.String" length="8">
+        	<generator class="assigned"></generator>
+        </id>
+        <property name="pidcard" type="java.lang.String" length="18"></property>
+        <property name="pname" type="java.lang.String" length="8"></property>
+        <property name="psex" type="java.lang.String" length="2"></property>
+        <property name="page" type="int"></property>
+        <property name="gno" type="java.lang.String" length="8"></property>
+        <property name="birthday" type="java.lang.String" length="20"></property>
+        <property name="allergy" type="java.lang.String" length="50"></property>
+        <property name="homeplace" type="java.lang.String" length="8"></property>
+        <property name="pphone" type="java.lang.String" length="11"></property>
+        <property name="paddress" type="java.lang.String" length="100"></property>
+        <property name="cphone" type="java.lang.String" length="11"></property>
+        <property name="caddress" type="java.lang.String" length="100"></property>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,39 @@
+a:link,a:visited
+{
+    color: #4c5aff;
+    text-decoration: none;
+}
+a:hover
+{
+    
+    text-decoration:underline;
+    color: blue;
+}
+table.default {
+	border:1px solid #0283c5;
+	border-collapse:collapse;
+	margin-top:5px;
+    background-color:#f0f0f0;
+}
+table.default td{
+	padding:2 5 2 5;
+	height:26px;
+	border:1px solid #ffffff;
+}
+
+table.default tr.title td{
+	font-weight:bold;
+	background:#0283c5;
+	color:#ffffff;
+    text-align:center;
+	line-height:26px;
+	vertical-align:middle;
+	font-size: 14;
+	
+}
+table.default tr.list{
+	text-align: center;	
+	line-height:26px;
+	vertical-align:middle;
+	font-size: 14;
+}
